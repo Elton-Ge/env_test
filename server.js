@@ -4,7 +4,7 @@ const dotenv = require('dotenv');
 dotenv.config()
 const app = express();
 app.get("/welcome",(req, res) => {
-    res.send({message: 'Welcome'})
+    res.send({message: 'Welcome ----!!!'})
 })
 console.log(process.env.DBHOST,"for_testing");
 const PORT=  process.env.PORT || 5050;
